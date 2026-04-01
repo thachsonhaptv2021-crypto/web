@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <!-- Hỗ trợ hiển thị trên điện thoại -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tiêu đề hiển thị trên tab trình duyệt -->
+    <title>Phạm Thị Minh Thư - Trang Cá Nhân</title>
+    <!-- Liên kết tới file CSS, dùng ../ vì file nằm trong thư mục profiles -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<!-- Phần đầu trang -->
+<header>
+    <h1>Trang Thông Tin Cá Nhân</h1>
+</header>
+
+<!-- Phần nội dung chính -->
+<div class="container">
+
+    <!-- Thẻ thông tin cá nhân: ảnh đại diện + thông tin -->
+    <div class="profile-card">
+        <!-- Ảnh đại diện, dùng ../ để quay về thư mục gốc lấy ảnh -->
+        <img src="../profile-minhthu.jpg" alt="Ảnh đại diện - Phạm Thị Minh Thư">
+        <div class="info">
+            <h2>Phạm Thị Minh Thư</h2>
+            <p>Sinh viên CNTT - Lớp DA25TTA</p>
+            <p>MSSV: 110125170</p>
+            <p>Trà Vinh, Việt Nam</p>
+            <h3>Liên hệ</h3>
+            <p>Email: minthu13407@gmail.com</p>
+            <!-- target="_blank": mở link trong tab mới -->
+            <a href="https://www.facebook.com/share/18EChKMD7n/?mibextid=wwXIfr" target="_blank">Facebook</a>
+        </div>
+    </div>
+
+    <!-- Phần giới thiệu bản thân -->
+    <div class="section">
+        <h2>Giới thiệu</h2>
+        <p>Tôi là sinh viên năm nhất chuyên ngành Công nghệ thông tin thuộc trường Kỹ thuật công nghệ của Đại học Trà Vinh.</p>
+    </div>
+
+    <!-- Phần sở thích, dùng thẻ ul/li để tạo danh sách -->
+    <div class="section">
+        <h2>Sở thích</h2>
+        <ul>
+            <li>Đi cafe chụp ảnh</li>
+            <li>Xem phim ở CGV</li>
+            <li>Nói chuyện với bạn bè</li>
+            <li>Đi dạo</li>
+        </ul>
+    </div>
+
+    <!-- Phần nhúng video TikTok bằng iframe -->
+    <div class="section" style="text-align: center;">
+        <h2>Âm nhạc</h2>
+        <iframe
+            src="https://www.tiktok.com/player/v1/7617490599196871952?autoplay=0"
+            width="325"
+            height="575"
+            frameborder="0"
+            allow="autoplay; fullscreen">
+        </iframe>
+    </div>
+
+    <!-- Nút quay về trang danh sách -->
+    <div style="text-align: center;">
+        <a href="../index.html" class="btn-back">Quay về danh sách</a>
+    </div>
+</div>
+
+<!-- Phần chân trang -->
+<footer>
+    <p>© 2026 Lớp DA25TTA - Đại học Trà Vinh</p>
+</footer>
+
+</body>
+</html>
